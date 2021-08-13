@@ -1,0 +1,1 @@
+(()=>{function t(){document.querySelector("#app").innerHTML=window.location.href}document.body.addEventListener("click",(e=>{if(e.target.matches("a")){e.preventDefault();const n=e.target.getAttribute("href");window.history.pushState({},n,n),t()}})),t()})();
